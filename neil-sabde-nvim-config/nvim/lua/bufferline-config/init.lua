@@ -1,9 +1,17 @@
-require('bufferline').setup{}
+require('bufferline').setup{
+    options = {
+        modified_icon = "",
+        close_icon = '',
+        left_trunc_marker = "",
+        right_trunc_marker = "",
+        always_show_bufferline = true,
+        color_icons = true,
+        sort_by = 'insert_at_end',
+        separator_style = 'thin',
+    },
+}
 
-vim.cmd[[
-    nnoremap <silent>[b :BufferLineCycleNext<CR>
-    nnoremap <silent>b] :BufferLineCyclePrev<CR>
-]]
+
 
 
 --{
