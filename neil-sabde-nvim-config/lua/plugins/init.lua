@@ -33,6 +33,15 @@ return require('packer').startup(function(use)
   -- Buffer line
     use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}   
   
+  -- Nvim tree
+    use {
+        'nvim-tree/nvim-tree.lua',
+        requires = {
+            'nvim-tree/nvim-web-devicons',
+        },
+        tag = 'nightly'
+    }
+
   -- LSP
 
 
