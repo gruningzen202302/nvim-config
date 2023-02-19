@@ -43,8 +43,35 @@ return require('packer').startup(function(use)
     }
 
   -- LSP
-
+  use {
+    'williamboman/mason.nvim',    
+    'williamboman/mason-lspconfig.nvim',
+    'neovim/nvim-lspconfig',
+  }
+    --use 'neovim/nvim-lspconfig'
+    --use 'kabouzeid/nvim-lspinstall'
+    --use 'glepnir/lspsaga.nvim'
+    --use 'onsails/lspkind-nvim'
+    --use 'hrsh7th/nvim-compe'
+    --use 'hrsh
 
   end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
