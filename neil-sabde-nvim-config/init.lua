@@ -15,5 +15,8 @@ vim.cmd[[
     nnoremap <silent><C-l> :NvimTreeToggle<CR>
 ]]
 
+vim.cmd[[
+    set fillchars=fold:\ ,vert:\│,eob:\ ,msgsep:‾
+]]
 
 

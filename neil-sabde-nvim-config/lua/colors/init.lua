@@ -9,6 +9,9 @@ function ColorMyPencils(color)
 	--vim.api.nvim_set_hl(1,"Normal",{ bg = "none" })
 	vim.api.nvim_set_hl(0,"NormalFloat",{ bg = "none" })
 	vim.api.nvim_set_hl(0,"NormalNC",{ bg = "none" })
+
+    vim.api.nvim_set_hl(0,"signcolumn",{bg = "none"})
+
     --vim.api.nvim_set_hl(0, "Normal", {guibg=NONE, ctermbg=NONE})
 	--nvim__buf_redraw_range({buffer}, {first}, {last})
 end

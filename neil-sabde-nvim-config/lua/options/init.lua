@@ -15,7 +15,8 @@ vim.o.ignorecase = true
 vim.o.mouse = 'a'
 vim.wo.wrap = true
 vim.o.number = true
-vim.o.cursorline = true
+vim.o.cursorline = false
+--vim.wo.signcolumn = 'no'
 vim.wo.signcolumn = 'yes'
 vim.o.tabstop = 4
 vim.bo.tabstop = 4
@@ -28,3 +29,6 @@ vim.bo.expandtab = true
 vim.o.scrolloff = 8
 vim.o.sidescrolloff = 4
 vim.o.whichwrap = 'b,s,<,>,[,],h,l'
+
+
+--vim.o.whichwrap__-___--[]
