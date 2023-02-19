@@ -19,4 +19,10 @@ vim.cmd[[
     set fillchars=fold:\ ,vert:\│,eob:\ ,msgsep:‾
 ]]
 
+vim.cmd[[
+    imap <silent><script><expr> <Right> copilot#Accept("\<CR>")
+        let g:copilot_no_tab_map = v:true
+]]
+
+
 
