@@ -65,7 +65,9 @@ return require('packer').startup(function(use)
         {'L3MON4D3/LuaSnip'},             -- Required
         {'rafamadriz/friendly-snippets'}, -- Optional
         }
-    }
+    } 
+    -- Conjure
+    use 'Olical/conjure'
 
   --  use {
     --    'williamboman/mason.nvim',    
